@@ -28,8 +28,8 @@ const pusher = new Pusher({
 app.use(bodyParser.json());
 app.use(cors())
 
-//do config mongodb+srv://fb_clinet:<password>@cluster0.vaxet.mongodb.net/<dbname>?retryWrites=true&w=majority
-const mongoURI = "mongodb+srv://fb_clinet:T2vMv7x0LDBamT2g@cluster0.vaxet.mongodb.net/facebook-db?retryWrites=true&w=majority"
+
+const mongoURI = ""
 
 const conn = mongoose.createConnection(mongoURI, {
     useCreateIndex: true,
